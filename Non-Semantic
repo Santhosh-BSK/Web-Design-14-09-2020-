@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html> 
+   <head> 
+      <title>Non-Semantic Elements</title> 
+      <style type=text/css> 
+         p{ 
+         background-color:gray; 
+         margin: 10px; 
+         } 
+           
+          .myDiv {
+  border: 5px outset red;
+  background-color: lightblue;
+  text-align: center;
+} 
+        
+         span 
+         { 
+         color: White; 
+         background-color: Blue; 
+         margin: 5px; 
+         font-size: 25px; 
+         } 
+      </style> 
+   </head> 
+   <body> 
+      <div class="myDiv"> HTML </div> 
+      <div class="myDiv" > CSS   </div> 
+      <div class="myDiv" > JAVA SCRIPT </div> 
+      <div class="myDiv" > BOOTSTRAP   </div> 
+<br><br>
+      <span>HTML</span> 
+      <span>CSS</span> 
+      <span>JQUERY</span> 
+      <span>REACT JS</span> 
+   </body> 
+</html> 
